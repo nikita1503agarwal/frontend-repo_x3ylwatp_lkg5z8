@@ -1,13 +1,12 @@
 export default function FeaturedGrid() {
   const products = [
-    { id: 1, name: 'Relaxed Cotton Tee', price: '$45', img: 'https://images.unsplash.com/photo-1520975933861-9117a134f7f6?q=80&w=1887&auto=format&fit=crop', hover: 'https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1974&auto=format&fit=crop' },
-    { id: 2, name: 'Structured Overshirt', price: '$129', img: 'https://images.unsplash.com/photo-1515187029135-18ee286d815b?q=80&w=1887&auto=format&fit=crop', hover: 'https://images.unsplash.com/photo-1544441893-675973e31985?q=80&w=1974&auto=format&fit=crop' },
-    { id: 3, name: 'Tailored Trouser', price: '$98', img: 'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=1974&auto=format&fit=crop', hover: 'https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=1887&auto=format&fit=crop' },
-    { id: 4, name: 'Minimal Sneakers', price: '$160', img: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1974&auto=format&fit=crop', hover: 'https://images.unsplash.com/photo-1542291024-52d8c8e9d37b?q=80&w=1974&auto=format&fit=crop' },
-    { id: 5, name: 'Signature Hoodie', price: '$95', img: 'https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80&w=1974&auto=format&fit=crop', hover: 'https://images.unsplash.com/photo-1516826957135-700dedea698c?q=80&w=1974&auto=format&fit=crop' },
-    { id: 6, name: 'Ribbed Tank', price: '$35', img: 'https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1887&auto=format&fit=crop', hover: 'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=1974&auto=format&fit=crop' },
-    { id: 7, name: 'Wool Coat', price: '$280', img: 'https://images.unsplash.com/photo-1512436991641-6745cdb1723f?q=80&w=1887&auto=format&fit=crop', hover: 'https://images.unsplash.com/photo-1511556820780-d912e42b4980?q=80&w=1887&auto=format&fit=crop' },
-    { id: 8, name: 'Performance Leggings', price: '$72', img: 'https://images.unsplash.com/photo-1540206351-d6465b3ac5c1?q=80&w=1887&auto=format&fit=crop', hover: 'https://images.unsplash.com/photo-1535469420023-7d6a4f4bdfd9?q=80&w=1887&auto=format&fit=crop' },
+    { id: 1, name: 'T‑Shirt', price: '$25', img: 'https://images.unsplash.com/photo-1520975933861-9117a134f7f6?q=80&w=1887&auto=format&fit=crop', hover: 'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=1974&auto=format&fit=crop' },
+    { id: 2, name: 'Shirt', price: '$40', img: 'https://images.unsplash.com/photo-1515187029135-18ee286d815b?q=80&w=1887&auto=format&fit=crop', hover: 'https://images.unsplash.com/photo-1544441893-675973e31985?q=80&w=1974&auto=format&fit=crop' },
+    { id: 3, name: 'Hoodie', price: '$60', img: 'https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80&w=1974&auto=format&fit=crop', hover: 'https://images.unsplash.com/photo-1516826957135-700dedea698c?q=80&w=1974&auto=format&fit=crop' },
+    { id: 4, name: 'Cap', price: '$20', img: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=1974&auto=format&fit=crop', hover: 'https://images.unsplash.com/photo-1519400197429-404ae1a1e188?q=80&w=1974&auto=format&fit=crop' },
+    { id: 5, name: 'Sweater', price: '$55', img: 'https://images.unsplash.com/photo-1541099649105-f69ad21f3246?q=80&w=1974&auto=format&fit=crop', hover: 'https://images.unsplash.com/photo-1503342452485-86ff0a8bccc0?q=80&w=1974&auto=format&fit=crop' },
+    { id: 6, name: 'Sweat Shirt', price: '$50', img: 'https://images.unsplash.com/photo-1539533113208-f6df8cc8b543?q=80&w=1887&auto=format&fit=crop', hover: 'https://images.unsplash.com/photo-1520975916090-3105956dac38?q=80&w=1974&auto=format&fit=crop' },
+    { id: 7, name: 'Jacket', price: '$120', img: 'https://images.unsplash.com/photo-1512436991641-6745cdb1723f?q=80&w=1887&auto=format&fit=crop', hover: 'https://images.unsplash.com/photo-1511556820780-d912e42b4980?q=80&w=1887&auto=format&fit=crop' },
   ]
 
   return (
