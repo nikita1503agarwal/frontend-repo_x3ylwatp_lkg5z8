@@ -12,7 +12,7 @@ export default function Navbar() {
             <button className="lg:hidden p-2" aria-label="Open menu" onClick={() => setOpen(true)}>
               <Menu className="h-6 w-6" />
             </button>
-            <a href="/" className="text-2xl tracking-[0.25em] font-semibold">BRAND</a>
+            <a href="/" className="text-2xl tracking-[0.25em] font-semibold">VYNE</a>
           </div>
 
           <nav className="hidden lg:flex items-center gap-8 text-sm uppercase tracking-widest text-black/70">
@@ -39,7 +39,7 @@ export default function Navbar() {
           <div className="absolute inset-0 bg-black/40" onClick={() => setOpen(false)} />
           <div className="ml-auto h-full w-80 max-w-[80%] bg-white shadow-xl p-6 flex flex-col">
             <div className="flex items-center justify-between">
-              <span className="text-lg tracking-[0.25em] font-semibold">BRAND</span>
+              <span className="text-lg tracking-[0.25em] font-semibold">VYNE</span>
               <button className="p-2" onClick={() => setOpen(false)} aria-label="Close menu">
                 <X className="h-6 w-6" />
               </button>
@@ -51,7 +51,7 @@ export default function Navbar() {
               <a href="#stories" onClick={() => setOpen(false)} className="block">Stories</a>
             </div>
             <div className="mt-auto text-xs text-black/60">
-              © {new Date().getFullYear()} BRAND
+              © {new Date().getFullYear()} VYNE
             </div>
           </div>
         </div>

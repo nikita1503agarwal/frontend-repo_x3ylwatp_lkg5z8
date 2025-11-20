@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid md:grid-cols-4 gap-10">
           <div className="md:col-span-2">
-            <h3 className="text-lg tracking-[0.25em]">BRAND</h3>
+            <h3 className="text-lg tracking-[0.25em]">VYNE</h3>
             <p className="mt-4 text-sm text-white/70 max-w-md">We craft elevated essentials with a commitment to quality, sustainability, and timeless style.</p>
           </div>
           <div>
@@ -25,7 +25,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-12 border-t border-white/10 pt-6 text-xs text-white/60">
-          © {new Date().getFullYear()} BRAND. All rights reserved.
+          © {new Date().getFullYear()} VYNE. All rights reserved.
         </div>
       </div>
     </footer>
